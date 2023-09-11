@@ -20,7 +20,7 @@ function calculateIMC() {
     obesity = "Magreza.";
   } else if (imc >= 18.5 && imc < 25) {
     classification = "Peso normal.";
-    obesity = "Saudável.";
+    obesity = "Saud\u00e1vel.";
   } else if (imc >= 25 && imc < 30) {
     classification = "Sobrepeso.";
     obesity = "Sobrepeso.";
