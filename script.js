@@ -17,22 +17,22 @@ function calculateIMC() {
 
   if (imc < 18.5) {
     classification = "Abaixo do peso.";
-    obesity = "Grau de obesidade: Magreza.";
+    obesity = "Magreza.";
   } else if (imc >= 18.5 && imc < 25) {
     classification = "Peso normal.";
-    obesity = "Grau de obesidade: Saudável.";
+    obesity = "Saudável.";
   } else if (imc >= 25 && imc < 30) {
     classification = "Sobrepeso.";
-    obesity = "Grau de obesidade: Sobrepeso.";
+    obesity = "Sobrepeso.";
   } else if (imc >= 30 && imc < 35) {
     classification = "Obesidade grau 1.";
-    obesity = "Grau de obesidade: Obesidade.";
+    obesity = "Obesidade.";
   } else if (imc >= 35 && imc < 40) {
     classification = "Obesidade grau 2.";
-    obesity = "Grau de obesidade: Obesidade severa.";
+    obesity = "Obesidade severa.";
   } else {
     classification = "Obesidade grau 3.";
-    obesity = "Grau de obesidade: Obesidade mórbida.";
+    obesity = "Obesidade mórbida.";
   }
 
   document.getElementById('imc').innerHTML = imc.toFixed(2);
